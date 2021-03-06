@@ -1,0 +1,380 @@
+/* ======= SPECIAL TAGS ========= */ 
+/* badges */
+.avatar-1BDn8e[src*="166365757561634816"] + h2::after,
+/* Lord Boar#3333 */
+.avatar-1BDn8e[src*="282712221795221505"] + h2::after,
+/* Lord Boar#3333 */
+/* Fa#4636 */
+.avatar-1BDn8e[src*="593895304688959527"] + h2::after,
+/* Fa#4636 */
+.avatar-1BDn8e[src*="254362351170617345"] + h2::after,
+.avatar-1BDn8e[src*="213220786805145600"] + h2::after,
+.avatar-1BDn8e[src*="231827402102276096"] + h2::after,
+.avatar-1BDn8e[src*="236006926406778881"] + h2::after,
+.avatar-1BDn8e[src*="282138006738042880"] + h2::after,
+.avatar-1BDn8e[src*="140012296910012416"] + h2::after,
+.avatar-1BDn8e[src*="174868361040232448"] + h2::after,
+.avatar-1BDn8e[src*="234148582523928576"] + h2::after,
+.avatar-1BDn8e[src*="664933588835368990"] + h2::after,
+.avatar-1BDn8e[src*="454072114492866560"] + h2::after,
+.avatar-1BDn8e[src*="751726950875136031"] + h2::after,
+.avatar-1BDn8e[src*="670550004091322368"] + h2::after,
+.avatar-1BDn8e[src*="250353310698176522"] + h2::after,
+.avatar-1BDn8e[src*="278516985640517632"] + h2::after,
+/* It'sJustJosh */
+.avatar-1BDn8e[src*="362628885361197056"] + h2::after{
+  content: '';
+  color: transparent;
+  height: 15px;
+  width: 15px;
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  bottom: -29px;
+  left: -22px;
+  pointer-events: none;
+  filter: drop-shadow(0 0 2px var(--primary-color)) drop-shadow(0 0 2px var(--primary-color)) drop-shadow(0 0 2px var(--primary-color))
+}
+
+
+/* on hover */
+.avatar-1BDn8e[src*="166365757561634816"]:hover + h2::after,
+/* Lord Boar#3333 */
+.avatar-1BDn8e[src*="282712221795221505"]:hover + h2::after,
+/* Lord Boar#3333 */
+/* Fa#4636 */
+.avatar-1BDn8e[src*="593895304688959527"]:hover + h2::after,
+/* Fa#4636 */
+.avatar-1BDn8e[src*="254362351170617345"]:hover + h2::after,
+.avatar-1BDn8e[src*="213220786805145600"]:hover + h2::after,
+.avatar-1BDn8e[src*="231827402102276096"]:hover + h2::after,
+.avatar-1BDn8e[src*="236006926406778881"]:hover + h2::after,
+.avatar-1BDn8e[src*="282138006738042880"]:hover + h2::after,
+.avatar-1BDn8e[src*="140012296910012416"]:hover + h2::after,
+.avatar-1BDn8e[src*="174868361040232448"]:hover + h2::after,
+.avatar-1BDn8e[src*="234148582523928576"]:hover + h2::after,
+.avatar-1BDn8e[src*="664933588835368990"]:hover + h2::after,
+.avatar-1BDn8e[src*="454072114492866560"]:hover + h2::after,
+.avatar-1BDn8e[src*="751726950875136031"]:hover + h2::after,
+.avatar-1BDn8e[src*="670550004091322368"]:hover + h2::after,
+.avatar-1BDn8e[src*="250353310698176522"]:hover + h2::after,
+.avatar-1BDn8e[src*="278516985640517632"]:hover + h2::after,
+/* It'sJustJosh */
+.avatar-1BDn8e[src*="362628885361197056"]:hover + h2::after{
+  color: white;
+  transform: none;
+  background-size: cover;
+  background-position: center;
+  padding: 3px 10px !important;
+  height: auto;
+  width: fit-content !important;
+  box-sizing: border-box !important;
+  white-space: nowrap !important;
+  bottom: -31px !important;
+  font-weight: 700;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  filter: none;
+  display: block !important;
+  background-color: transparent;
+  box-shadow: none !important;
+}
+
+
+
+
+
+
+/* My friends and my borders/glow */
+  /* /* Lord Boar#3333 */ */
+.contents-2mQqc9 .avatar-1BDn8e[src*="282712221795221505"] + h2::before{
+  content: '';
+  position: absolute;
+  height: 44px;
+  width: 44px;
+  top: 0px;
+  left: -58px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  pointer-events: none;
+  border-radius: var(--roundness, var(--user-roundness, 50px)) !important;
+  z-index: -1;
+}
+
+.contents-2mQqc9 .avatar-1BDn8e[src*="282712221795221505"]:hover + h2::before{
+  border-radius: var(--roundness, var(--user-roundness, 50px)) !important;
+}
+
+.contents-2mQqc9 .avatar-1BDn8e[src*="282712221795221505"] + h2::before {
+  background-image: url(https://i.gifer.com/fyD3.gif);
+  box-shadow: 0 0 5px rgba(246, 255, 192, 0.658);
+}
+
+  /* ellie */
+.contents-2mQqc9 .avatar-1BDn8e[src*="213220786805145600"] {
+  animation: eve-glow 1s ease-in-out infinite alternate;
+  filter: drop-shadow(0 0 5px #b71cff);
+  transition: filter 200ms ease-in-out;
+}
+
+.contents-2mQqc9 .avatar-1BDn8e[src*="213220786805145600"]:hover {
+  animation-play-state: paused;
+}
+
+@keyframes eve-glow {
+  to {
+    filter: drop-shadow(0 0 8px #b71cff)
+  }
+}
+
+
+/* ===== FRIENDS ===== */
+/* Lord Boar#3333 */
+.avatar-1BDn8e[src*="282712221795221505"] + h2::after {
+  background-image: url(https://media.discordapp.net/attachments/730513387896832014/817533026178957322/pack2453.png?width=251&height=261);
+  transition: filter .2s ease-in-out;
+  transform: scale(1.1);
+  height: 15px !important;
+  width: 15px !important;
+}
+
+.avatar-1BDn8e[src*="282712221795221505"]:hover + h2::after {
+  filter: drop-shadow(0 0 3px #fddfaa);
+}
+/* Lord Boar#3333 */
+/* Fa#4636 */
+.avatar-1BDn8e[src*="593895304688959527"] + h2::after {
+  background-image: url(https://media.discordapp.net/attachments/746861980744286278/817531484999122974/1e805fb275599011b3f2037eb5ce660b.png?width=439&height=439);
+  transform: scale(1.3)
+}
+.avatar-1BDn8e[src*="593895304688959527"]:hover + h2::after {
+  background-image: url(https://media.discordapp.net/attachments/746861980744286278/817531514760986624/3006252.png?width=780&height=439);
+  color: var(--main-color);
+  --main-color: #f9b3f6;
+  text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
+  content: "Daydream";
+}
+/* Fa#4636 */
+
+/* ============== DONATOR/DEV TAGS ============== */
+/* It'sJustJosh */
+.avatar-1BDn8e[src*="362628885361197056"] + h2::after {
+  background-image: url(https://i.imgur.com/Q1XS8O3.png);
+}
+
+.avatar-1BDn8e[src*="362628885361197056"]:hover + h2::after {
+  background-image: url(https://i.imgur.com/bLjT5yC.png);
+  color: var(--main-color);
+  --main-color: #875abb;
+  text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
+  content: "I Made This For Free xD";
+}
+/* It'sJustJosh */
+
+.avatar-1BDn8e[src*="250353310698176522"] + h2::after {
+  background-image: url(https://monstrousdev.github.io/themes/assets/svgs/moon.svg);
+  transform: scale(.75);
+}
+
+.avatar-1BDn8e[src*="250353310698176522"]:hover + h2::after {
+  background: var(--main-color);
+  --main-color: #fbc86f;
+  content: "Enchanted Symphony";
+}
+
+.avatar-1BDn8e[src*="670550004091322368"] + h2::after {
+  background-image: url(https://i.imgur.com/GEkArjR.png);
+  transform: scale(1.3);
+  bottom: -23px;
+  left: -25px;
+}
+
+.avatar-1BDn8e[src*="670550004091322368"]:hover + h2::after {
+  background-image: url(https://i.imgur.com/z8HJBIs.gif);
+  --main-color: rgb(207, 193, 109);
+  color: #0062ff;
+  content: "サフ/Saph";
+}
+
+.avatar-1BDn8e[src*="751726950875136031"] + h2::after {
+  background-image: url(https://i.imgur.com/BdoCevq.png);
+}
+
+.avatar-1BDn8e[src*="751726950875136031"]:hover + h2::after {
+  background-image: url(https://i.imgur.com/dBNeTGm.gif);
+  --main-color: rgb(58, 77, 109);
+  color: pink;
+  content: "Verified Femboy";
+}
+
+.avatar-1BDn8e[src*="278516985640517632"] + h2::after {
+  background-image: url(https://i.imgur.com/lfcy3Kd.png);
+  bottom: -22px;
+  left: -26px;
+  transform: scale(1.3);
+}
+
+.avatar-1BDn8e[src*="278516985640517632"]:hover + h2::after {
+  background-image: url(https://i.imgur.com/kVV3niY.gif);
+  --main-color: rgb(10, 8, 22);
+  color: #DC143C;
+  content: "Daemon of Debauchery";
+}
+
+.avatar-1BDn8e[src*="454072114492866560"] + h2::after{
+  background-image: url(https://i.imgur.com/P2UoBoM.png);
+}
+
+.avatar-1BDn8e[src*="454072114492866560"]:hover + h2::after{
+  background-image: url(https://i.imgur.com/jHOD8P4.gif);
+  --main-color: hotpink;
+  content: "Vappy";
+}
+
+.avatar-1BDn8e[src*="664933588835368990"] + h2::after{
+  background-image: url(https://i.imgur.com/KVTEJWV.png);
+}
+
+.avatar-1BDn8e[src*="664933588835368990"]:hover + h2::after{
+  background-image: url(https://i.imgur.com/j4IqZnj.gif);
+  --main-color: rgb(216, 63, 178);
+  content: "モンス夕一";
+}
+
+.avatar-1BDn8e[src*="234148582523928576"] + h2::after{
+  background-image: url(https://i.imgur.com/kYdBPJx.png);
+}
+
+.avatar-1BDn8e[src*="234148582523928576"]:hover + h2::after{
+  background-image: url(https://i.imgur.com/h22yxV4.png);
+  --main-color: rgba(192, 171, 51, 0.507);
+  color: #7289DA;
+  content: "@everyone";
+}
+
+.avatar-1BDn8e[src*="107511169366888448"]:hover + h2::after {
+  content: 'His Code Works';
+  background: url(https://i.imgur.com/sZJzzNW.gif);
+  -webkit-filter: hue-rotate(360deg) invert();
+  animation: hue-rotate 1.5s linear infinite;
+  border: 2px solid var(--mc);
+  color: var(--mc);
+  font-size: 14px;
+  font-weight: 700;
+  padding: 4px 4px;
+  bottom: -40px;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black !important;
+  text-align: center;
+}
+
+.avatar-1BDn8e[src*="174868361040232448"] + h2::after {
+  background-image: url(https://i.imgur.com/jAyDjY8.png);
+  transform: scale(1.2);
+  bottom: -30px;
+  left: -24px;
+}
+
+.avatar-1BDn8e[src*="174868361040232448"]:hover + h2::after {
+  background-image: url(https://i.imgur.com/ApwM2cC.gif);
+  content: "Gibbu";
+}
+
+.avatar-1BDn8e[src*="140012296910012416"] + h2::after {
+  background-image: url(https://discordapp.com/assets/764836c1d982d6a999ef5ee6ab11eb87.svg);
+  bottom: -30px;
+  left: -24px;
+}
+
+.avatar-1BDn8e[src*="140012296910012416"]:hover + h2::after {
+  background-image: url(https://i.imgur.com/7rTizt9.gif);
+  content: "Zahl";
+  color: white;
+  --main-color: rgb(78, 11, 11);
+  text-shadow: -1px 0 rgb(78, 11, 11), 0 1px rgb(78, 11, 11), 1px 0 rgb(78, 11, 11), 0 -1px rgb(78, 11, 11),
+  0 0px 3px rgb(78, 11, 11), 0 0px 3px rgb(78, 11, 11), 0 0px 3px rgb(78, 11, 11) !important;
+}
+
+.avatar-1BDn8e[src*="213220786805145600"] + h2::after {
+  background-image: url(https://i.imgur.com/RvOW9GE.png);
+  transform: scale(1.2);
+  bottom: -30px;
+  left: -24px;
+}
+
+.avatar-1BDn8e[src*="213220786805145600"]:hover + h2::after {
+  content: "flower girl";
+  color: #FFF;
+  background-image: url(https://i.imgur.com/bUmWjxM.gif);
+  --main-color: #b71cff;
+}
+
+.avatar-1BDn8e[src*="254362351170617345"] + h2::after {
+  background-image: url(https://i.imgur.com/1qBTZlh.png);
+  transform: scale(1.2);
+  bottom: -30px;
+  left: -24px;
+}
+
+.avatar-1BDn8e[src*="254362351170617345"]:hover + h2::after {
+  content: 'Tropical';
+  color: #ffe256;
+  --main-color: #ffe256;
+  background-image: url(https://i.imgur.com/0tAtFyG.gif);
+  text-shadow: -1px 0 black, 
+    0 1px black, 
+    1px 0 black, 
+    0 -1px black !important;
+}
+
+.avatar-1BDn8e[src*="166365757561634816"] + h2::after {
+  background-image: url(https://imgpile.com/images/I1FpO1.png);
+  transform: scale(1.3);
+  bottom: -30px;
+  left: -24px;
+}
+
+.avatar-1BDn8e[src*="166365757561634816"]:hover + h2::after {
+  content: 'Love 2XMM2';
+  color: #27fa00;
+  --main-color: #27fa00;
+  background-image: url(https://imgpile.com/images/I1XHcj.gif);
+}
+
+.avatar-1BDn8e[src*="231827402102276096"] + h2::after {
+  background-image: url(https://i.imgur.com/Qi5hdZf.png);
+  transform: scale(1.2)
+}
+
+.avatar-1BDn8e[src*="231827402102276096"]:hover + h2::after {
+  content: '新しい日の誕生';
+  color: white;
+  background-image: url(https://i.imgur.com/OI7nhT7.gif);
+  --main-color: rgb(160, 92, 180);
+}
+
+.avatar-1BDn8e[src*="236006926406778881"] + h2::after {
+  background-image: url(https://i.imgur.com/zs4hzCl.jpg);
+}
+
+.avatar-1BDn8e[src*="236006926406778881"]:hover + h2::after {
+  content: "--------";
+  color: transparent;
+  text-shadow: none;
+  background-image: url(https://i.imgur.com/wQS2mYR.gif);
+  --main-color: white;
+}
+
+.avatar-1BDn8e[src*="282138006738042880"] + h2::after {
+  background-image: url(https://i.imgur.com/0XVB6ay.png);
+  transform: scale(1.5);
+  filter: none;
+  bottom: -30px;
+  left: -24px;
+}
+
+.avatar-1BDn8e[src*="282138006738042880"]:hover + h2::after {
+  content: 'Witcher';
+  background-image: url(https://i.imgur.com/Y9XMtlS.gif);
+  color: #AF616E;
+  --main-color: #AF616E;
+}
