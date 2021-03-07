@@ -1,0 +1,258 @@
+/* ======= SPECIAL TAGS & BADGES ========= */ 
+/* ===== FRIENDS & DEVS / FIRST ORDERS ===== */
+/* KU SAO#2930 */
+.avatar-1BDn8e[src*="802316175685320746"] + h2::after,
+/* sheep#2428 */
+.avatar-1BDn8e[src*="429303151598895106"] + h2::after,
+/* Lord Boar#3333 */
+.avatar-1BDn8e[src*="282712221795221505"] + h2::after,
+/* Fa#4636 */
+.avatar-1BDn8e[src*="593895304688959527"] + h2::after,
+/* It'sJustJohn#8998 */
+.avatar-1BDn8e[src*="706288288251641887"] + h2::after,
+/* Liam The Protogen#2501 */
+.avatar-1BDn8e[src*="441384103946878987"] + h2::after,
+/* Bullish#1033 */
+.avatar-1BDn8e[src*="519581602179710981"] + h2::after,
+/* ItsYaGirlJessica#2572 */
+.avatar-1BDn8e[src*="687354166561341455"] + h2::after,
+/* ============== OWNER TAGS ============== */
+/* Joshua Malava#0079 */
+.avatar-1BDn8e[src*="750781478991954031"] + h2::after,
+/* It'sJustJosh */
+.avatar-1BDn8e[src*="362628885361197056"] + h2::after
+{
+  content: '';
+  color: transparent;
+  height: 15px;
+  width: 15px;
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  bottom: -29px;
+  left: -22px;
+  pointer-events: none;
+  filter: drop-shadow(0 0 2px var(--primary-color)) drop-shadow(0 0 2px var(--primary-color)) drop-shadow(0 0 2px var(--primary-color))
+}
+
+
+/* =======ON HOVER======= */
+/* ===== FRIENDS & DEVS / FIRST ORDERS ===== */
+/* KU SAO#2930 */
+.avatar-1BDn8e[src*="802316175685320746"]:hover + h2::after,
+/* sheep#2428 */
+.avatar-1BDn8e[src*="429303151598895106"]:hover + h2::after,
+/* Lord Boar#3333 */
+.avatar-1BDn8e[src*="282712221795221505"]:hover + h2::after,
+/* Fa#4636 */
+.avatar-1BDn8e[src*="593895304688959527"]:hover + h2::after,
+/* It'sJustJohn#8998 */
+.avatar-1BDn8e[src*="706288288251641887"]:hover + h2::after,
+/* Liam The Protogen#2501 */
+.avatar-1BDn8e[src*="441384103946878987"]:hover + h2::after,
+/* Bullish#1033 */
+.avatar-1BDn8e[src*="519581602179710981"]:hover + h2::after,
+/* ItsYaGirlJessica#2572 */
+.avatar-1BDn8e[src*="687354166561341455"]:hover + h2::after,
+/* ============== OWNER TAGS ============== */
+/* Joshua Malava#0079 */
+.avatar-1BDn8e[src*="750781478991954031"]:hover + h2::after,
+/* It'sJustJosh */
+.avatar-1BDn8e[src*="362628885361197056"]:hover + h2::after
+{
+  color: white;
+  transform: none;
+  background-size: cover;
+  background-position: center;
+  padding: 3px 10px !important;
+  height: auto;
+  width: fit-content !important;
+  box-sizing: border-box !important;
+  white-space: nowrap !important;
+  bottom: -31px !important;
+  font-weight: 700;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  filter: none;
+  display: block !important;
+  background-color: transparent;
+  box-shadow: none !important;
+}
+
+/* ============== OWNER TAGS ============== */
+/* It'sJustJosh */
+.avatar-1BDn8e[src*="362628885361197056"] + h2::after {
+  background-image: url(https://i.imgur.com/Q1XS8O3.png);
+}
+
+.avatar-1BDn8e[src*="362628885361197056"]:hover + h2::after {
+  background-image: url(https://i.imgur.com/bLjT5yC.png);
+  color: var(--main-color);
+  --main-color: #875abb;
+  text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
+  content: "I Made This For Free xD";
+}
+/* Joshua Malava#0079 */ 
+.avatar-1BDn8e[src*="750781478991954031"] + h2::after {
+  background-image: url(https://images-ext-1.discordapp.net/external/i9Px4O2b72GmzuKJZVGf5MflE8q-5b_MszKTaypIJx8/%3Fsize%3D64/https/cdn.discordapp.com/emojis/709808106070081567.png?width=58&height=58);
+  transform: scale(1.5);
+  filter: none;
+  bottom: -30px;
+  left: -24px;
+}
+
+.avatar-1BDn8e[src*="750781478991954031"]:hover + h2::after {
+  content: 'Im Very Horrny';
+  background-image: none;
+  background-color: #bb73dc;
+  color: #544e4f;
+  --main-color: #544e4f;
+}
+/* ============== OWNER TAGS ============== */
+
+/* ===== FRIENDS & DEVS / FIRST ORDERS ===== */
+
+  /* /* Lord Boar#3333 Glow */ */
+.contents-2mQqc9 .avatar-1BDn8e[src*="282712221795221505"] + h2::before{
+  content: '';
+  position: absolute;
+  height: 44px;
+  width: 44px;
+  top: 0px;
+  left: -58px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  pointer-events: none;
+  border-radius: var(--roundness, var(--user-roundness, 50px)) !important;
+  z-index: -1;
+}
+
+.contents-2mQqc9 .avatar-1BDn8e[src*="282712221795221505"]:hover + h2::before{
+  border-radius: var(--roundness, var(--user-roundness, 50px)) !important;
+}
+/* Lord Boar#3333  Badge */
+.contents-2mQqc9 .avatar-1BDn8e[src*="282712221795221505"] + h2::before {
+  background-image: url(https://i.gifer.com/fyD3.gif);
+  box-shadow: 0 0 5px rgba(246, 255, 192, 0.658);
+}
+
+.avatar-1BDn8e[src*="282712221795221505"] + h2::after {
+  background-image: url(https://media.discordapp.net/attachments/730513387896832014/817533026178957322/pack2453.png?width=251&height=261);
+  transition: filter .2s ease-in-out;
+  transform: scale(1.1);
+  height: 15px !important;
+  width: 15px !important;
+}
+
+.avatar-1BDn8e[src*="282712221795221505"]:hover + h2::after {
+  filter: drop-shadow(0 0 3px #fddfaa);
+}
+/* Fa#4636 */
+.avatar-1BDn8e[src*="593895304688959527"] + h2::after {
+  background-image: url(https://media.discordapp.net/attachments/746861980744286278/817531484999122974/1e805fb275599011b3f2037eb5ce660b.png?width=439&height=439);
+  transform: scale(1.3)
+}
+.avatar-1BDn8e[src*="593895304688959527"]:hover + h2::after {
+  background-image: url(https://media.discordapp.net/attachments/746861980744286278/817531514760986624/3006252.png?width=780&height=439);
+  color: var(--main-color);
+  --main-color: #f9b3f6;
+  text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
+  content: "Daydream";
+}
+/* ItsYaGirlJessica#2572 */
+.avatar-1BDn8e[src*="687354166561341455"] + h2::after {
+  background-image: url(https://monstrousdev.github.io/themes/assets/svgs/moon.svg);
+  transform: scale(.75);
+}
+
+.avatar-1BDn8e[src*="687354166561341455"]:hover + h2::after {
+  background: var(--main-color);
+  --main-color: #dd6ffb;
+  content: "Walking in The Moonlight";
+}
+/* Bullish#1033 */
+.avatar-1BDn8e[src*="519581602179710981"] + h2::after {
+  background-image: url(https://monstrousdev.github.io/themes/assets/svgs/elleCrown.svg);
+  transform: scale(1.3);
+  bottom: -23px;
+  left: -25px;
+}
+
+.avatar-1BDn8e[src*="519581602179710981"]:hover + h2::after {
+  background-color: black;
+  background-image: none;
+  --main-color: rgb(207, 193, 109);
+  color: #eaeaea;
+  content: "The Ladies Man";
+}
+/* It'sJustJohn#8998 */
+.avatar-1BDn8e[src*="706288288251641887"] + h2::after {
+  background-image: url(https://cdn.discordapp.com/emojis/759548793145917491.png?v=1);
+  transform: scale(1.2)
+}
+
+.avatar-1BDn8e[src*="706288288251641887"]:hover + h2::after {
+  content: 'SCP:SLs Community is a Joke';
+  color: white;
+  background-image: url(https://i.imgur.com/OI7nhT7.gif);
+  --main-color: rgb(160, 92, 180);
+}
+/* Liam The Protogen#2501 */
+.avatar-1BDn8e[src*="441384103946878987"] + h2::after {
+  background-image: url(https://media.discordapp.net/attachments/817139053471334400/817617725241032704/Custom_Discord_Badge.png?width=432&height=432);
+}
+
+.avatar-1BDn8e[src*="441384103946878987"]:hover + h2::after {
+  content: "That furry Discord programmer - You know the one!";
+  color: black;
+  text-shadow: none;
+  background-image: url(https://media.discordapp.net/attachments/817139053471334400/817617849530187776/Profile_banner.png?width=657&height=439);
+  --main-color: white;
+}
+/* sheep#2428 */
+.avatar-1BDn8e[src*="429303151598895106"] + h2::after {
+  background-image: url(https://media.discordapp.net/attachments/812784998939754567/818207969904295936/sheeppic.png?width=115&height=115);
+  transform: scale(1.3);
+  bottom: -30px;
+  left: -24px;
+  border-radius: 17px;
+}
+
+.avatar-1BDn8e[src*="429303151598895106"]:hover + h2::after {
+  content: 'Just a Sheep';
+  color: #8499b0;
+  --main-color: #8499b0;
+  background-image: none;
+  background-color: #2e3340;
+}
+/* KU SAO#2930 */
+.contents-2mQqc9 .avatar-1BDn8e[src*="802316175685320746"] + h2::before{
+  content: '';
+  position: absolute;
+  height: 44px;
+  width: 44px;
+  top: 0px;
+  left: -58px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  pointer-events: none;
+  border-radius: var(--roundness, var(--user-roundness, 50px)) !important;
+  z-index: -1;
+}
+
+.contents-2mQqc9 .avatar-1BDn8e[src*="802316175685320746"]:hover + h2::before{
+  border-radius: var(--roundness, var(--user-roundness, 50px)) !important;
+}
+
+.contents-2mQqc9 .avatar-1BDn8e[src*="802316175685320746"] + h2::before {
+  background-image: none; /* url(https://i.gifer.com/fyD3.gif) */
+  box-shadow: none; /* 0 0 5px rgba(246, 255, 192, 0.658) */
+}
+.avatar-1BDn8e[src*="802316175685320746"] + h2::after {
+  background-image: url(https://monstrousdev.github.io/themes/assets/svgs/elleCrown.svg);
+  transition: filter .2s ease-in-out;
+  transform: scale(1.1);
+  height: 15px !important;
+  width: 15px !important;
+}
