@@ -1,0 +1,68 @@
+/* grow in with pulse */ 
+/* ===== FRIENDS & DEVS / FIRST ORDERS ===== */
+/* KU SAO#2930 */
+.avatar-1BDn8e[src*="802316175685320746"]:hover + h2::after,
+/* sheep#2428 */
+.avatar-1BDn8e[src*="429303151598895106"]:hover + h2::after,
+/* It'sJustJohn#8998 */
+.avatar-1BDn8e[src*="706288288251641887"]:hover + h2::after,
+/* ItsYaGirlJessica#2572 */
+.avatar-1BDn8e[src*="687354166561341455"]:hover + h2::after,
+/* Fa#4636 */
+.avatar-1BDn8e[src*="593895304688959527"]:hover + h2::after{
+  animation: mentionpulse 1.5s infinite, popoutanim .2s;
+}
+
+/* fall and bounce */
+/* ============== OWNER TAGS ============== */
+/* Joshua Malava#0079 */ 
+.avatar-1BDn8e[src*="750781478991954031"]:hover + h2:after,
+/* It'sJustJosh */
+.avatar-1BDn8e[src*="362628885361197056"]:hover + h2::after,
+/* ===== FRIENDS & DEVS / FIRST ORDERS ===== */
+/* Liam The Protogen#2501 */
+.avatar-1BDn8e[src*="441384103946878987"]:hover + h2::after,
+/* ======================================== */
+/* Bullish#1033 */
+.avatar-1BDn8e[src*="519581602179710981"]:hover + h2::after{
+  animation: fallBounce 1s;
+}
+
+/* ---- keyframes ---- */
+@keyframes fallBounce { /* 1s */
+  from {
+    opacity: 0;
+    transform: translateY(-100%);
+  }
+  25% {
+    opacity: 1;
+    transform: translateY(0) scale(1.1, 0.9);
+  }
+  50% {
+    transform: translateY(-20%) scale(0.9, 1.1);
+  }
+  75% {
+    transform: translateY(0)
+  }
+}
+
+@keyframes popoutanim {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@-webkit-keyframes mentionpulse {
+  0% {
+    -webkit-box-shadow: 0 0 0 0 var(--main-color);
+  }
+  70% {
+    -webkit-box-shadow: 0 0 0 5px rgba(204, 169, 44, 0);
+  }
+  100% {
+    -webkit-box-shadow: 0 0 0 0 rgba(204, 169, 44, 0);
+  }
+}
