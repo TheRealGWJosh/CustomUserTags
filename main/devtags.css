@@ -81,7 +81,7 @@
 /* ============== OWNER TAGS ============== */
 /* It'sJustJosh */
 .avatar-1BDn8e[src*="362628885361197056"] + h2::after {
-  background-image: url(https://i.imgur.com/Q1XS8O3.png);
+  background-image: url(https://i.imgur.com/1eXeHoq.png);
 }
 
 .avatar-1BDn8e[src*="362628885361197056"]:hover + h2::after {
@@ -89,7 +89,7 @@
   color: var(--main-color);
   --main-color: #875abb;
   text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
-  content: "I Made This For Free xD";
+  content: "Just Another Developer";
 }
 /* Joshua Malava#0079 */ 
 .avatar-1BDn8e[src*="750781478991954031"] + h2::after {
