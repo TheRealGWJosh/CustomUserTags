@@ -28,6 +28,7 @@
   animation: fallBounce 1s;
 }
 
+
 /* ---- keyframes ---- */
 @keyframes fallBounce { /* 1s */
   from {
@@ -46,12 +47,54 @@
   }
 }
 
+@keyframes scaleSpin { /* .4s */
+  from {
+    transform: scale(0) rotate(360deg);
+  }
+  to {
+    transform: scale(1) rotate(0);
+  }
+}
+
 @keyframes popoutanim {
   0% {
     transform: scale(0);
   }
   100% {
     transform: scale(1);
+  }
+}
+
+@keyframes fadeFromRight {
+  0% {
+      opacity: 0;
+      transform: translateX(50%)
+  }
+  100% {
+      opacity: 0.9;
+      transform: none
+  }
+}
+
+@keyframes fadeFromRight {
+  0% {
+      opacity: 0;
+      transform: translateX(50%)
+  }
+  100% {
+      opacity: 0.9;
+      transform: none
+  }Updated 
+}
+
+@keyframes fadeFromBottom {
+  0% {
+      opacity: 0;
+      transform: translateY(50%)
+  }
+  100% {
+      opacity: 0.9;
+      transform: none
   }
 }
 
