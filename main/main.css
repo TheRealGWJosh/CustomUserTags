@@ -1,8 +1,8 @@
 /* ======= IMPORTS & MAIN CODE ========= */ 
 @charset "UTF-8";
 @import 'https://monstrousdev.github.io/themes/addons/user-tags.css';
-@import 'https://raw.githack.com/TheRealGWJosh/CustomUserTags/main/main/devglow.css';
-@import 'https://raw.githack.com/TheRealGWJosh/CustomUserTags/main/main/devtags.css';
+@import 'https://therealgwjosh.github.io/CustomUserTags/main/devglow.css';
+@import 'https://therealgwjosh.github.io/CustomUserTags/main/devtags.css';
 
 :root {
   --mc: var(--main-color);
