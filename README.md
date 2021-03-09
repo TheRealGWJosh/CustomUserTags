@@ -10,7 +10,7 @@ Discord Addon: Unreleased
 ### Powercord & Vizality
 [**Powercord**](https://powercord.dev/) or [**Vizality**](https://vizality.com/) :
 ```
-git clone https://github.com/NYRI4/Discolored
+git clone https://github.com/TheRealGWJosh/CustomUserTags
 ```
 ### BetterdDiscord & Web
 [**BetterDiscord**](https://betterdiscord.net/home/) : <br/> 
