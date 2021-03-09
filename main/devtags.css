@@ -256,3 +256,81 @@
   height: 15px !important;
   width: 15px !important;
 }
+
+/* fragraccunix#4614 */
+.avatar-1BDn8e[src*="369171050287595521"] + h2::after{
+  content: '';
+  color: transparent;
+  height: 15px;
+  width: 15px;
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  bottom: -29px;
+  left: -22px;
+  pointer-events: none;
+  filter: drop-shadow(0 0 2px var(--primary-color)) drop-shadow(0 0 2px var(--primary-color)) drop-shadow(0 0 2px var(--primary-color))
+}
+
+.avatar-1BDn8e[src*="369171050287595521"]:hover + h2::after{
+  color: white;
+  transform: none;
+  background-size: cover;
+  background-position: center;
+  padding: 3px 10px !important;
+  height: auto;
+  width: fit-content !important;
+  box-sizing: border-box !important;
+  white-space: nowrap !important;
+  bottom: -31px !important;
+  font-weight: 700;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  filter: none;
+  display: block !important;
+  background-color: transparent;
+  box-shadow: none !important;
+}
+
+.avatar-1BDn8e[src*="369171050287595521"]:hover + h2::after{
+  animation: mentionpulse 1.5s infinite, popoutanim .2s;
+}
+
+.contents-2mQqc9 .avatar-1BDn8e[src*="369171050287595521"]:hover {
+  animation-play-state: paused;
+}
+
+.avatar-1BDn8e[src*="369171050287595521"] + h2::after {
+  background-image: url(https://media.discordapp.net/attachments/817599646376919080/818698240479199232/ezgif-1-589395798490.png?width=439&height=439);
+  transform: scale(1.2);
+  bottom: -30px;
+  left: -24px;
+}
+
+.avatar-1BDn8e[src*="369171050287595521"]:hover + h2::after {
+  content: "Quad Damage Junkie";
+  color: #FFF;
+  background-image: url(https://media.discordapp.net/attachments/817599646376919080/818698097617272862/950f3683bea6963fc2ce72bfdfdbdcbc.gif?width=450&height=396);
+  --main-color: #b71cff;
+}
+
+/* ===== KEYFRAMES ===== */
+@-webkit-keyframes mentionpulse {
+  0% {
+    -webkit-box-shadow: 0 0 0 0 var(--main-color);
+  }
+  70% {
+    -webkit-box-shadow: 0 0 0 5px rgba(204, 169, 44, 0);
+  }
+  100% {
+    -webkit-box-shadow: 0 0 0 0 rgba(204, 169, 44, 0);
+  }
+}
+@keyframes popoutanim {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+/* fragraccunix#4614 */
