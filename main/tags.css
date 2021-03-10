@@ -1,0 +1,99 @@
+/*
+OVERVIEW OF THIS FILE
+---------------------
+This file contains a very basic implementation of tags.
+If you are a theme dev and your theme looks nothing like Discord by default (ex: Midnight by Tropical), I would suggest making your own implementation while using the database.
+
+Each user's tag may contain 3 distinct variables:
+--tag-text (the text to display on the tag)
+--tag-bg (the background for the tag)
+--tag-text-color (the color of the text displayed on each tag)
+
+These variables can be used for customizing tags per-user by request.
+If you'd like to change the default color and background for tags you can do so by adding this to your theme and modifying the variables:
+:root {
+    --tag-bg: #7289da;
+    --tag-text-color: white;
+}
+
+If you do end up creating your own implementation, I suggest accounting for these variables.
+---------------------
+Thank you for using UserTags <3
+*/
+
+:root {
+    --tag-bg: #7289da;
+    --tag-text-color: white;
+}
+
+.avatar-1BDn8e + h2 > span.timestamp-3ZCmNB::before {
+    color: var(--tag-text-color) !important;
+    background: var(--tag-bg);
+    content: var(--tag-text);
+    font-size: .8em;
+    font-weight: 500;
+    height: 2.28em;
+    padding: .072rem .275rem;
+    border-radius: 3px;
+    text-transform: uppercase;
+    vertical-align: baseline;
+    margin-right: .50rem;
+    margin-left: -.25rem;
+}
+/*
+UserTags by creatable
+-----------------------------
+NOTE: This file only exists |
+as a database. None of the  |
+tags display unless you add |
+basic styling to them.      |
+-----------------------------
+*/
+
+/* creatable#0123 */
+.avatar-1BDn8e[src*="597905003717459968"] + h2.header-23xsNx {
+    --tag-text: 'look at my discrim peasant';
+    --tag-bg: #1bb04c;
+}
+
+:root {
+	--tag-bg1: #a980ee;
+	--tag-bg2: #a69e58;
+}
+
+.avatar-1BDn8e[src*="362628885361197056"] + h2 > span.timestamp-3ZCmNB::before {
+	color: #000 !important;
+	background: var(--tag-bg1) !important;
+	content: var(--tag-text);
+	font-size: .8em;
+	font-weight: 500;
+	height: 2.28em;
+	padding: .072rem .275rem;
+	border-radius: 3px;
+	text-transform: uppercase;
+	vertical-align: baseline;
+	margin-right: .50rem;
+	margin-left: -.25rem;
+}
+.avatar-1BDn8e[src*="362628885361197056"] + h2.header-23xsNx {
+	--tag-text: 'Lead Dev';
+	--tag-bg1: #a980ee;
+}
+.avatar-1BDn8e[src*="402272736665272320"] + h2 > span.timestamp-3ZCmNB::before {
+	color: #000 !important;
+	background: var(--tag-bg2);
+	content: var(--tag-text);
+	font-size: .8em;
+	font-weight: 500;
+	height: 2.28em;
+	padding: .072rem .275rem;
+	border-radius: 3px;
+	text-transform: uppercase;
+	vertical-align: baseline;
+	margin-right: .50rem;
+	margin-left: -.25rem;
+}
+.avatar-1BDn8e[src*="402272736665272320"] + h2.header-23xsNx {
+	--tag-text: 'Original Dev';
+	--tag-bg2: #a69e58;
+}
