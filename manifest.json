@@ -1,5 +1,6 @@
 
 {
+    "icon": "/main/media/vz_icon.png",
     "name": "CustomUserBadges",
     "description": "A Quick Import To Give Users Badges In Chat - TO REQUEST ONE DM It'sJustJosh#1156",
     "version": "1.3.0",
