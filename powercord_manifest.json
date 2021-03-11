@@ -1,9 +1,9 @@
 {
-    "name": "Custom User Tags",
+    "name": "CustomUserBadges",
     "description": "Customize your tags with this simple theme.",
     "version": "1.0",
     "author": "It'sJustJosh",
-    "theme": "CustomUserTags.theme.css",
+    "theme": "CustomUserBadges.theme.css",
     "consent": "false",
     "license": "CCO 1.0"
 }
