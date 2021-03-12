@@ -41,7 +41,7 @@
 /* =======ON HOVER======= */
 /* ===== FRIENDS & DEVS / FIRST ORDERS ===== */
 /* CloneyInnit#6510 */
-.avatar-1BDn8e[src*="729934422068953098"] + h2::after,
+.avatar-1BDn8e[src*="729934422068953098"]:hover + h2::after,
 /* KU SAO#2930 */
 .avatar-1BDn8e[src*="802316175685320746"]:hover + h2::after,
 /* sheep#2428 */
