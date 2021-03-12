@@ -1,10 +1,10 @@
 /* ======= IMPORTS & MAIN CODE ========= */ 
 @charset "UTF-8";
 @import 'https://monstrousdev.github.io/themes/addons/user-tags.css';
-@import 'https://therealgwjosh.github.io/CustomUserBadges/main/tags.css';
-@import 'https://therealgwjosh.github.io/CustomUserBadges/main/server.css';
-@import 'https://therealgwjosh.github.io/CustomUserBadges/main/devglow.css';
-@import 'https://therealgwjosh.github.io/CustomUserBadges/main/devtags.css';
+@import 'https://therealgwjosh.github.io/CustomUserBadges/source/tags.css';
+@import 'https://therealgwjosh.github.io/CustomUserBadges/source/server.css';
+@import 'https://therealgwjosh.github.io/CustomUserBadges/source/devglow.css';
+@import 'https://therealgwjosh.github.io/CustomUserBadges/source/devtags.css';
 
 :root {
   --mc: var(--main-color);
