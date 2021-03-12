@@ -1,5 +1,7 @@
 /* ======= SPECIAL TAGS & BADGES ========= */ 
 /* ===== FRIENDS & DEVS / FIRST ORDERS ===== */
+/* CloneyInnit#6510 */
+.avatar-1BDn8e[src*="729934422068953098"] + h2::after,
 /* KU SAO#2930 */
 .avatar-1BDn8e[src*="802316175685320746"] + h2::after,
 /* sheep#2428 */
@@ -38,6 +40,8 @@
 
 /* =======ON HOVER======= */
 /* ===== FRIENDS & DEVS / FIRST ORDERS ===== */
+/* CloneyInnit#6510 */
+.avatar-1BDn8e[src*="729934422068953098"] + h2::after,
 /* KU SAO#2930 */
 .avatar-1BDn8e[src*="802316175685320746"]:hover + h2::after,
 /* sheep#2428 */
@@ -110,6 +114,19 @@
 /* ============== OWNER TAGS ============== */
 
 /* ===== FRIENDS & DEVS / FIRST ORDERS ===== */
+
+/* CloneyInnit#6510 */
+.avatar-1BDn8e[src*="729934422068953098"] + h2::after {
+  background-image: url(https://media.discordapp.net/attachments/820048763157479424/820048913507418152/6817_Discord_Verified.png?width=415&height=395);
+}
+
+.avatar-1BDn8e[src*="729934422068953098"]:hover + h2::after {
+  background-image: url(https://i.imgur.com/Zdojm22.gif);
+  color: var(--main-color);
+  --main-color: #fff;
+  text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
+  content: "Verified Weeb";
+}
 
   /* /* Lord Boar#3333 Glow */ */
 .contents-2mQqc9 .avatar-1BDn8e[src*="282712221795221505"] + h2::before{
